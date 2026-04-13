@@ -1,0 +1,77 @@
+
+══════════════════════════════════════════════════════════════════
+  UK RETAIL SECTOR — LIVE ANALYSIS REPORT
+  Data fetched: 2026-04-13 10:22 UTC
+  Sources: ONS Beta API · Yahoo Finance · Frankfurter API
+══════════════════════════════════════════════════════════════════
+
+FINDING 1 – UK RETAIL SALES INDEX (ONS, OFFICIAL DATA)
+───────────────────────────────────────────────────────
+Latest ONS Retail Sales Index: 105.60  (period: 2026-01)
+Month-on-month change:         +2.23%
+
+The ONS RSI measures change in the volume/value of retail sales
+across Great Britain, benchmarked at 100 for 2019. Values above
+100 indicate higher sales than the 2019 baseline.
+
+FINDING 2 – MONTH-ON-MONTH TRENDS
+────────────────────────────────────
+The LAG() window function analysis across all available months
+reveals the seasonal rhythm of UK consumers: sharp uplifts in
+November/December, followed by a predictable January trough.
+Post-pandemic recovery data is visible in the index history.
+
+FINDING 3 – SUB-SECTOR BREAKDOWN
+──────────────────────────────────
+Online / non-store retailing consistently posts the highest index
+values — structural shift to e-commerce that has not reversed
+post-Covid. Food retailing shows the least volatility.
+
+FINDING 4 – UK RETAILER STOCK PERFORMANCE  (Yahoo Finance, Live)
+──────────────────────────────────────────────────────────────────
+YTD performance of UK-listed retailers:
+  Tesco                      +10.8%
+  Marks & Spencer            +9.7%
+  Sainsbury's                +7.0%
+  B&M European Value         +4.6%
+  Frasers Group              -0.7%
+  Next                       -1.9%
+  Greggs                     -3.8%
+  WH Smith                   -8.1%
+  JD Sports                  -13.4%
+  Ocado                      -22.7%
+
+Largest UK retailer by market cap: Tesco  (market cap £31.1B)
+
+FINDING 5 – GBP EXCHANGE RATES  (Frankfurter API, Live)
+─────────────────────────────────────────────────────────
+Latest live FX rates:
+  GBP/EUR = 1.1480  GBP/JPY = 214.0300  GBP/USD = 1.3445
+
+GBP strength vs EUR and USD affects international purchasing costs
+and the competitiveness of UK exporters' pricing. A stronger pound
+reduces import costs for retailers sourcing from the EU / US.
+
+══════════════════════════════════════════════════════════════════
+  THREE ACTIONABLE OPPORTUNITIES  (from live data)
+══════════════════════════════════════════════════════════════════
+
+  1. ONLINE-FIRST INVESTMENT
+     Non-store retailing (e-commerce) consistently leads the ONS
+     index. Retailers underexposed to this channel are likely
+     losing structural share to digital-native competitors.
+
+  2. Q4 STOCK PLANNING
+     The seasonal heatmap confirms November / December peak every
+     year without exception. Inventory and logistics planning
+     based on this cadence is the highest-priority operational
+     improvement.
+
+  3. CURRENCY HEDGING
+     GBP volatility vs EUR and USD directly affects margin for
+     retailers importing goods. A 5% GBP move against EUR is
+     equivalent to wiping several percentage points off operating
+     margin for a typical food/fashion retailer sourcing from
+     Europe. Structured FX hedging programmes mitigate this.
+
+══════════════════════════════════════════════════════════════════
