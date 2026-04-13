@@ -32,7 +32,6 @@ retail_sales_analysis_project/
 ├── scripts/
 │   ├── fetch_live_data.py          # Step 1 — fetch from APIs → SQLite
 │   ├── analyse.py                  # Step 2 — run SQL + produce charts
-│   └── generate_synthetic_data.py  # Fallback — offline synthetic dataset
 │
 ├── outputs/
 │   ├── findings_report.txt         # Written summary of key findings
@@ -297,22 +296,6 @@ The normalised stock chart shows meaningful divergence even among retailers in s
 | Frankfurter (FX data) | MIT Licence | https://www.frankfurter.app |
 
 The ONS data is Crown Copyright and is made available under the Open Government Licence. Attribution: Office for National Statistics.
-
----
-
-## Offline fallback
-
-If you don't have internet access, you can generate a realistic synthetic dataset that mirrors the original UCI Online Retail II structure:
-
-```bash
-python scripts/generate_synthetic_data.py
-```
-
-Then run the original analysis against `data/retail.db`:
-
-```bash
-python scripts/analyse.py  # (edit DB_PATH in analyse.py to data/retail.db)
-```
 
 ---
 
